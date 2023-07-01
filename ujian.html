@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website Ujian Arkademia</title>
+  <style>
+    /* CSS */
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #00ff00, #008000);
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    #output {
+      margin-top: 20px;
+      background-color: #f9f9f9;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Website Ujian Arkademia</h1>
+  </header>
+
+  <div class="container">
+    <button onclick="showMessage()">Klik untuk Menampilkan Pesan</button>
+    <div id="output"></div>
+  </div>
+
+  <script>
+    // JavaScript
+    function showMessage() {
+      var outputDiv = document.getElementById('output');
+      outputDiv.innerHTML = 'Ini adalah website yang dibuat oleh Woro Anjar Verianty.';
+    }
+  </script>
+</body>
+</html>
